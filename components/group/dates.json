@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_group_dates",
+  "info": {
+    "name": "Dates",
+    "icon": "calendar-times"
+  },
+  "options": {},
+  "attributes": {
+    "jour": {
+      "type": "integer",
+      "required": true
+    },
+    "mois": {
+      "type": "integer",
+      "required": true
+    },
+    "annee": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

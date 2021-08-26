@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "name": "Accueil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Annonces": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.group",
+      "required": true
+    },
+    "devise": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.devise"
+    },
+    "presentation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "group.presentation"
+    },
+    "partenaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.partenaire"
+    },
+    "temoignage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.temoignage"
+    }
+  }
+}

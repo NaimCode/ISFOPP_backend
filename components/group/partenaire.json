@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_group_partenaires",
+  "info": {
+    "name": "partenaire",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "formations",
+  "info": {
+    "name": "Formations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "departement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.departement"
+    }
+  }
+}

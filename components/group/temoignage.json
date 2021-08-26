@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_group_temoignages",
+  "info": {
+    "name": "temoignage",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "fonction": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "temoignage": {
+      "type": "text"
+    }
+  }
+}
