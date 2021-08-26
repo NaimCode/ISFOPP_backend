@@ -81,7 +81,9 @@ ssl
 .idea
 nbproject
 public/uploads/*
-!public/uploads/.gitkeep
+!public/uploads/.
+
+package-lock.json
 
 ############################
 # Node.js
