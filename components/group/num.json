@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_group_nums",
+  "info": {
+    "name": "num",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "num": {
+      "type": "string"
+    }
+  }
+}

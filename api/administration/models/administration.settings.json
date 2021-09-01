@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "administrations",
+  "info": {
+    "name": "Administration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "acteur": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group.acteur"
+    }
+  }
+}

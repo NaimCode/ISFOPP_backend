@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_group_acteurs",
+  "info": {
+    "name": "acteur",
+    "icon": "user-circle"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "fonction": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
