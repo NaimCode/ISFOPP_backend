@@ -12,9 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "contenu": {
-      "type": "richtext",
-      "required": true
+    "vc": {
+      "type": "string"
+    },
+    "nnn": {
+      "type": "richtext"
     }
   }
 }
