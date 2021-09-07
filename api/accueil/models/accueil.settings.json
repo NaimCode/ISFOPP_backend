@@ -28,25 +28,10 @@
       "repeatable": false,
       "component": "group.presentation"
     },
-    "partenaire": {
-      "type": "component",
-      "repeatable": true,
-      "component": "group.partenaire"
-    },
     "temoignage": {
       "type": "component",
       "repeatable": true,
       "component": "group.temoignage"
-    },
-    "background": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
     }
   }
 }
