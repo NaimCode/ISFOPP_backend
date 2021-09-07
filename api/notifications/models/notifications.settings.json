@@ -30,6 +30,11 @@
     },
     "contenu": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titre",
+      "required": true
     }
   }
 }
