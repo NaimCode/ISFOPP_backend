@@ -1,8 +1,9 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "formations",
   "info": {
-    "name": "Formations"
+    "name": "Formations",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "departement": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "contenu": {
+      "type": "richtext"
+    },
+    "filiere": {
       "type": "component",
       "repeatable": true,
-      "component": "group.departement"
+      "component": "group.filiere"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titre"
     }
   }
 }

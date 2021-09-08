@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_group_filieres",
+  "info": {
+    "name": "Filiere",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "contenu": {
+      "type": "richtext"
+    }
+  }
+}
