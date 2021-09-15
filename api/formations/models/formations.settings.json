@@ -16,9 +16,6 @@
       "type": "string",
       "required": true
     },
-    "contenu": {
-      "type": "richtext"
-    },
     "filiere": {
       "type": "component",
       "repeatable": true,
@@ -27,6 +24,9 @@
     "slug": {
       "type": "uid",
       "targetField": "titre"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
